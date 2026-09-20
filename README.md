@@ -375,5 +375,43 @@ In this program, I used `Scanner` to read the number of beans in six different b
 
 #### Sample Input
 
-```text
 241 675 897 12 4354 7625
+
+# GearTrain.java
+
+**Date: September 20, 2026**
+
+
+### Get It Into Gear
+
+In this program, I used a `String` to read a gear train and separated the gears using `split()`. I used the number of teeth on the first and last gears to calculate how many revolutions the last gear makes. I also used the number of gears to determine whether the last gear turns clockwise or anti-clockwise.
+
+[View GearTrain.java](GearTrain.java)
+
+#### Sample Input
+
+```text
+12T3T12T6T5T
+```
+
+#### Sample Output
+
+```text
+24
+C
+```
+
+#### Test Input
+
+```text
+10T5T15T4T
+```
+
+#### Test Output
+
+```text
+25
+A
+```
+
+
