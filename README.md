@@ -3,7 +3,12 @@
 Welcome to my Computer Science website!
 This website will include my class notes, Java code, exercises, and projects throughout the year.
 ## My Work
-### R_U1_P1 RUNESTONE
+---
+
+# R_U1_P1 RUNESTONE
+
+**Date: September 20, 2026**
+
 
 #### Topics
 Introduction to Algorithms, Variables and Data Types, Expressions and Output
@@ -80,7 +85,12 @@ In this assignment, I learned how Java programs are structured and how variables
 
 
 
-### R_U1_P2 RUNESTONE
+---
+
+# R_U1_P2 RUNESTONE
+
+**Date: September 20, 2026**
+
 
 #### Topics
 Assignment and Input, Casting and Ranges of Values, Compound Assignment Operators, APIs and Libraries, Documentation with Comments and Preconditions
