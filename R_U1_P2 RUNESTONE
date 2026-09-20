@@ -2,18 +2,18 @@ public class R_U1_P2 RUNESTONE
 {
     public static void main(String[] args)
     {
-        // Three integer grades
+        
         int grade1 = 90;
         int grade2 = 100;
         int grade3 = 94;
 
-        // Add the grades together
+       
         int sum = grade1 + grade2 + grade3;
 
-        // Cast sum to double so the average keeps its decimal part
+        
         double average = (double) sum / 3;
 
-        // Print the result
+       
         System.out.println("Grade 1: " + grade1);
         System.out.println("Grade 2: " + grade2);
         System.out.println("Grade 3: " + grade3);
