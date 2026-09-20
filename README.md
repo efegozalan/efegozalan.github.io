@@ -25,6 +25,8 @@ I also learned the difference between syntax errors and run-time errors. Syntax 
 
 #### Java Code Example - Pay Calculator
 
+[View Challenge1_3_Pay_Calculator.java](Challenge1_3_Pay_Calculator.java)
+
 ```java
 public class Challenge1_3_Pay_Calculator
 {
@@ -108,6 +110,8 @@ I learned how APIs and libraries allow programmers to use code that has already 
 Finally, I learned how comments help explain code. Java uses `//` for single-line comments, `/* */` for multi-line comments, and `/** */` for documentation comments. I also learned about preconditions and postconditions. A precondition describes what must be true before a method runs, while a postcondition describes what should be true after the method finishes.
 
 #### Java Code Example - Average of Three Grades
+
+[View AverageThreeGrades.java](AverageThreeGrades.java)
 
 ```java
 public class AverageThreeGrades
