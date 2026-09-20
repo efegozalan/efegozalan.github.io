@@ -148,3 +148,205 @@ I also learned that small changes in code can affect the data type and result of
 - CSAwesome / Runestone Academy - Unit 1 lessons and activities
 - Java
 - ChatGPT - used for organizing the portfolio entry. ( only things that I didn't know about github)
+
+
+
+
+---
+
+# R_U1_P3 RUNESTONE
+
+**Date: September 20, 2026**
+
+## What I Learned
+
+In this Runestone assignment, I learned about methods, method calls, method signatures, parameters, and arguments in Java.
+
+A method is a named block of code that performs a specific task. Methods are useful because they allow programmers to organize programs into smaller parts and avoid repeating the same code many times.
+
+I also learned about procedural abstraction. Procedural abstraction means that a programmer can use a method by knowing what it does without needing to know exactly how the method works internally.
+
+A method is executed when it is called. When Java reaches a method call, it temporarily moves to that method, runs the statements inside it, and then returns to the point where the method was called.
+
+For example:
+
+```java
+public static void sayHello()
+{
+    System.out.println("Hello!");
+}
+```
+
+The method can be called using:
+
+```java
+sayHello();
+```
+
+## Method Signatures
+
+A method signature identifies a method by its name and its parameter types.
+
+For example:
+
+```java
+public static void greet(String name)
+```
+
+The method name is `greet` and its parameter type is `String`.
+
+Java can use method signatures to determine which method should run.
+
+Methods can also be overloaded. Method overloading means having multiple methods with the same name but different parameter lists.
+
+For example:
+
+```java
+public static void printMessage(String message)
+{
+    System.out.println(message);
+}
+
+public static void printMessage(int number)
+{
+    System.out.println(number);
+}
+```
+
+These methods have the same name but different parameter types.
+
+## Parameters and Arguments
+
+A parameter is a variable written in the method definition.
+
+For example:
+
+```java
+public static void animalSound(String animal)
+```
+
+Here, `animal` is a parameter.
+
+An argument is the actual value given to the method when the method is called.
+
+For example:
+
+```java
+animalSound("cow");
+```
+
+Here, `"cow"` is the argument.
+
+Java uses call by value, which means that the value of an argument is copied into the parameter.
+
+## Using Methods to Reduce Repeated Code
+
+One important idea I learned was that methods can reduce repeated code.
+
+Instead of writing the same code several times, I can create one method and call it whenever I need it.
+
+For example:
+
+```java
+public static void chorus()
+{
+    System.out.println("E-I-E-I-O");
+}
+```
+
+Then I can use:
+
+```java
+chorus();
+```
+
+multiple times instead of rewriting the same `System.out.println()` statement.
+
+## Java Code Example
+
+The following program uses methods, parameters, and arguments to print different animal sounds.
+
+```java
+public class AnimalSounds
+{
+    // Prints the introduction of the song
+    public static void intro()
+    {
+        System.out.println("Old MacDonald had a farm");
+        chorus();
+    }
+
+    // Prints the repeated chorus
+    public static void chorus()
+    {
+        System.out.println("E-I-E-I-O");
+    }
+
+    // Uses parameters so the same method can work
+    // with different animals and sounds
+    public static void verse(String animal, String sound)
+    {
+        System.out.println("And on this farm, they had a " + animal);
+        chorus();
+
+        System.out.println("With a " + sound + " " + sound + " here");
+        System.out.println("And a " + sound + " " + sound + " there");
+    }
+
+    public static void main(String[] args)
+    {
+        intro();
+
+        verse("cow", "moo");
+
+        verse("duck", "quack");
+
+        verse("goose", "honk");
+    }
+}
+```
+
+### What the Code Does
+
+This program separates different parts of the program into methods.
+
+The `intro()` method prints the beginning of the song.
+
+The `chorus()` method prints the repeated chorus.
+
+The `verse()` method has two parameters: `animal` and `sound`. This allows the same method to be reused for different animals instead of writing a completely new method each time.
+
+For example:
+
+```java
+verse("cow", "moo");
+```
+
+passes `"cow"` and `"moo"` as arguments.
+
+## Sample Output
+
+```text
+Old MacDonald had a farm
+E-I-E-I-O
+And on this farm, they had a cow
+E-I-E-I-O
+With a moo moo here
+And a moo moo there
+And on this farm, they had a duck
+E-I-E-I-O
+With a quack quack here
+And a quack quack there
+And on this farm, they had a goose
+E-I-E-I-O
+With a honk honk here
+And a honk honk there
+```
+
+## Reflection
+
+In this assignment, I learned how methods help organize Java programs and reduce repeated code. I also learned the difference between parameters and arguments and how values are passed into methods.
+
+At first, one challenge was understanding the difference between a parameter and an argument. I solved this by remembering that a parameter is written when the method is created, while an argument is the actual value used when the method is called.
+
+I also learned that using methods makes programs easier to read, understand, and modify. Instead of repeating similar code, I can create one reusable method and give it different arguments.
