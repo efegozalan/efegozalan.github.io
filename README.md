@@ -25,8 +25,7 @@ I also learned the difference between syntax errors and run-time errors. Syntax 
 
 #### Java Code Example - Pay Calculator
 
-[View Challenge1_3_Pay_Calculator.java](Challenge1_3_Pay_Calculator.java)
-
+[View R_U1_P1 RUNESTONE Code](R_U1_P1%20RUNESTONE)
 ```java
 public class Challenge1_3_Pay_Calculator
 {
@@ -111,7 +110,7 @@ Finally, I learned how comments help explain code. Java uses `//` for single-lin
 
 #### Java Code Example - Average of Three Grades
 
-[View AverageThreeGrades.java](AverageThreeGrades.java)
+[View R_U1_P2 RUNESTONE Code](R_U1_P2%20RUNESTONE)
 
 ```java
 public class AverageThreeGrades
