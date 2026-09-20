@@ -26,6 +26,7 @@ I also learned the difference between syntax errors and run-time errors. Syntax 
 #### Java Code Example - Pay Calculator
 
 [View R_U1_P1 RUNESTONE Code](R_U1_P1%20RUNESTONE)
+
 ```java
 public class Challenge1_3_Pay_Calculator
 {
