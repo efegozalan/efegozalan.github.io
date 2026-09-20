@@ -76,4 +76,75 @@ In this assignment, I learned how Java programs are structured and how variables
 
 - CSAwesome / Runestone Academy - Unit 1 lessons and activities
 - Java
-- ChatGPT - used for checking explanations and organizing the portfolio entry
+- ChatGPT - used for organizing the portfolio entry. ( only things that I didn't know about github)
+
+
+
+### R_U1_P2 RUNESTONE
+
+#### Topics
+Assignment and Input, Casting and Ranges of Values, Compound Assignment Operators, APIs and Libraries, Documentation with Comments and Preconditions
+
+#### Class Notes
+
+In this assignment, I learned more about how variables can change while a Java program is running. An assignment statement uses the `=` operator to store a value in a variable. The value on the right side is calculated first and then stored in the variable on the left side. I also learned how temporary variables can be used to swap the values of two variables.
+
+I learned about type casting and the difference between integer and decimal calculations. Casting with `(double)` can be used to make an expression produce a decimal result. Casting a `double` to an `int` removes the decimal part. I also learned that Java `int` values have a limited range and that going outside this range can cause integer overflow.
+
+Another topic was compound assignment operators. Operators such as `+=`, `-=`, `*=`, `/=`, and `%=` are shorter ways to update variables. I also learned that `++` increases a variable by 1 and `--` decreases it by 1.
+
+I learned how APIs and libraries allow programmers to use code that has already been written. A class is a main building block in Java, attributes store information about an object, and methods describe behaviors that an object can perform. For example, the Turtle library has methods such as `forward()`, `turnRight()`, and `turnLeft()`.
+
+Finally, I learned how comments help explain code. Java uses `//` for single-line comments, `/* */` for multi-line comments, and `/** */` for documentation comments. I also learned about preconditions and postconditions. A precondition describes what must be true before a method runs, while a postcondition describes what should be true after the method finishes.
+
+#### Java Code Example - Average of Three Grades
+
+```java
+public class AverageThreeGrades
+{
+    public static void main(String[] args)
+    {
+        // Three integer grades
+        int grade1 = 90;
+        int grade2 = 100;
+        int grade3 = 94;
+
+        // Add the grades together
+        int sum = grade1 + grade2 + grade3;
+
+        // Cast sum to double so the average keeps its decimal part
+        double average = (double) sum / 3;
+
+        // Print the result
+        System.out.println("Grade 1: " + grade1);
+        System.out.println("Grade 2: " + grade2);
+        System.out.println("Grade 3: " + grade3);
+        System.out.println("Average: " + average);
+    }
+}
+```
+
+#### Code Explanation
+
+This program stores three grades as integer variables and adds them together. It then uses `(double)` casting before dividing the sum by 3. This is important because dividing two integers would use integer division and remove the decimal part. The program then prints each grade and the calculated average.
+
+#### Sample Output
+
+```text
+Grade 1: 90
+Grade 2: 100
+Grade 3: 94
+Average: 94.66666666666667
+```
+
+#### Reflection
+
+In this assignment, I learned how assignment statements, casting, compound operators, APIs, libraries, and comments work in Java. One challenge I had was understanding why division sometimes did not give a decimal answer. I learned that when both values are integers, Java uses integer division. I solved this by casting one value to a `double` before dividing.
+
+I also learned that small changes in code can affect the data type and result of an expression. Practicing compound operators and tracing variable values helped me understand how values change while a program runs. Learning about APIs, methods, attributes, preconditions, and comments also helped me understand how larger Java programs can be organized and documented.
+
+#### Sources and Tools
+
+- CSAwesome / Runestone Academy - Unit 1 lessons and activities
+- Java
+- ChatGPT - used for organizing the portfolio entry. ( only things that I didn't know about github)
