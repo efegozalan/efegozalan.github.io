@@ -352,6 +352,11 @@ E-I-E-I-O
 With a honk honk here
 And a honk honk there
 ```
+---
+
+# FarmerRyan.java
+
+**Date: September 20, 2026**
 
 ## Reflection
 
@@ -360,3 +365,15 @@ In this assignment, I learned how methods help organize Java programs and reduce
 At first, one challenge was understanding the difference between a parameter and an argument. I solved this by remembering that a parameter is written when the method is created, while an argument is the actual value used when the method is called.
 
 I also learned that using methods makes programs easier to read, understand, and modify. Instead of repeating similar code, I can create one reusable method and give it different arguments.
+
+
+### Farmer Ryan
+
+In this program, I used `Scanner` to read the number of beans in six different bags. Then I added all six values together and printed the total number of beans Ryan needs to plant.
+
+[View FarmerRyan.java](FarmerRyan.java)
+
+#### Sample Input
+
+```text
+241 675 897 12 4354 7625
