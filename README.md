@@ -423,8 +423,7 @@ A
 
 **Date: September 21, 2026**
 
-In this activity, I practiced finding and fixing common Java errors. I worked with variables, casting, integer division, the modulo operator, and methods from the `Math` class.
-
+In this activity, I practiced finding and fixing common Java errors. I worked with variables, casting, integer division and the modulo operator.
 The program includes examples of using `(int)` and `(double)` casting, `%` for remainders, `Math.abs()`, `Math.pow()`, and `Math.random()`.
 
 [View ShieldTest_WarmUp.java](ShieldTest_WarmUp.java)
