@@ -431,7 +431,7 @@ The program includes examples of using `(int)` and `(double)` casting, `%` for r
 
 #### Sample Output
 
-```text
+
 === SHIELD TEST INITIATED ===
 
 [STEP 1] Charging energy...
