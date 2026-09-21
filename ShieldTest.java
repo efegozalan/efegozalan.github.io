@@ -1,4 +1,4 @@
-public class ShieldTest_WarmUp {
+public class ShieldTest {
     public static void main(String[] args) {
         
         System.out.println("=== SHIELD TEST INITIATED ===");
