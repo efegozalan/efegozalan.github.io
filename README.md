@@ -460,13 +460,13 @@ In this assignment, I debugged a Java program called SpaceStation. The original 
 ```
 ---
 
-### Digital Diner
+### Online Diner
 
 **Date: September 21, 2026**
 
-In this program, I made a simple restaurant ordering system. I used `Scanner` to ask the user how many burgers, fries, and drinks they want.
+In this program, I made a simple restaurant ordering system. I used `Scanner` to ask the user how many burgers, fries, and drinks they want.The program stores the amount of food and the prices. Then it calculates the total number of items and the total price of the order.
 
-The program stores the amount of food and the prices. Then it calculates the total number of items and the total price of the order.
+[View OnlineDiner.java](OnlineDiner.java)
 
-[View MyProgram.java](MyProgram.java)
+
 
