@@ -419,3 +419,32 @@ A
 ```
 
 
+### Shield Test Warm-Up
+
+**Date: September 21, 2026**
+
+In this activity, I practiced finding and fixing common Java errors. I worked with variables, casting, integer division, the modulo operator, and methods from the `Math` class.
+
+The program includes examples of using `(int)` and `(double)` casting, `%` for remainders, `Math.abs()`, `Math.pow()`, and `Math.random()`.
+
+[View ShieldTest_WarmUp.java](ShieldTest_WarmUp.java)
+
+#### Sample Output
+
+```text
+=== SHIELD TEST INITIATED ===
+
+[STEP 1] Charging energy...
+Energy Level: 100
+Voltage: 12
+
+[STEP 2] Calculating efficiency...
+Efficiency (Expected 12.5): 12.5
+Leftover Energy (Expected 2): 2
+
+[STEP 3] Mathematical verifications...
+Deviation: 8.5
+Target Power: 9.0
+Random Code: 0-9
+
+=== SHIELD TEST SUCCESSFUL! ===
