@@ -420,7 +420,7 @@ A
 
 ---
 
-### Shield Test Warm-Up
+### Shield Test 
 
 **Date: September 21, 2026**
 
@@ -457,5 +457,16 @@ Random Code: 0-9
 In this assignment, I debugged a Java program called SpaceStation. The original program contained 32 errors. I fixed problems involving variables, data types, printing, math operations, casting, overflow, and the Math class.
 
 [View SpaceStation.java](SpaceStation.java)
+```
+---
 
+### Digital Diner
+
+**Date: September 21, 2026**
+
+In this program, I made a simple restaurant ordering system. I used `Scanner` to ask the user how many burgers, fries, and drinks they want.
+
+The program stores the amount of food and the prices. Then it calculates the total number of items and the total price of the order.
+
+[View MyProgram.java](MyProgram.java)
 
