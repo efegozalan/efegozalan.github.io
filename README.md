@@ -448,6 +448,14 @@ Target Power: 9.0
 Random Code: 0-9
 
 === SHIELD TEST SUCCESSFUL! ===
+```
+---
+## Galactic Cargo Station Sabotage
 
+**Date: September 21, 2026**
+
+In this assignment, I debugged a Java program called SpaceStation. The original program contained 32 errors. I fixed problems involving variables, data types, printing, math operations, casting, overflow, and the Math class.
+
+[View SpaceStation.java](SpaceStation.java)
 
 
