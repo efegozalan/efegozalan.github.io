@@ -468,5 +468,38 @@ In this program, I made a simple restaurant ordering system. I used `Scanner` to
 
 [View OnlineDiner.java](OnlineDiner.java)
 
+---
+# CodeHS 1.10 
 
+**Date:** September 23, 2026
+
+## Main Ideas
+I learned how to create and call class methods in Java. I also learned about parameters, arguments, return values, and calling methods from another class.
+
+## Example
+
+```java
+public static int add(int x, int y)
+{
+    return x + y;
+}
+```
+---
+
+
+### `CodeHS_1_11
+
+
+# CodeHS 1.11 – Math Class
+
+**Date:** September 23, 2026
+
+## Main Ideas
+I learned how to use Java's Math class for calculations such as powers, square roots, absolute values, and random numbers.
+
+## Example
+
+```java
+double square = Math.sqrt(144);
+int diceRoll = (int)(Math.random() * 6) + 1;
 
