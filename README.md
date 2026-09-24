@@ -480,9 +480,6 @@ I learned how to create and call class methods in Java. I also learned about par
 ---
 
 
-### `CodeHS_1_11
-
-
 # CodeHS 1.11 – Math Class
 
 **Date:** September 23, 2026
