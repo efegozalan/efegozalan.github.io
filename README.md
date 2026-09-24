@@ -476,14 +476,7 @@ In this program, I made a simple restaurant ordering system. I used `Scanner` to
 ## Main Ideas
 I learned how to create and call class methods in Java. I also learned about parameters, arguments, return values, and calling methods from another class.
 
-## Example
 
-```java
-public static int add(int x, int y)
-{
-    return x + y;
-}
-```
 ---
 
 
@@ -497,9 +490,4 @@ public static int add(int x, int y)
 ## Main Ideas
 I learned how to use Java's Math class for calculations such as powers, square roots, absolute values, and random numbers.
 
-## Example
-
-```java
-double square = Math.sqrt(144);
-int diceRoll = (int)(Math.random() * 6) + 1;
 
