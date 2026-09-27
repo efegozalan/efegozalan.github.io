@@ -573,3 +573,30 @@ Age: 16
 
 ### Reflection
 I learned how classes, objects, constructors, and instance methods work together. The most important thing I learned was how to create an object and then call its methods.
+
+---
+
+## CodeHS 1.12 - Objects: Instances of Classes
+
+**Date: September 27, 2026**
+
+### Main Ideas
+- A class is a blueprint used to create objects.
+- An object is an instance of a class.
+- Objects can have different attribute values.
+- Attributes describe an object.
+- Methods describe what an object can do.
+- Object variables store references to objects in memory.
+- Subclasses can inherit attributes and methods from a superclass.
+
+### Example
+```java
+Rectangle rect1 = new Rectangle(5, 8, "red");
+Rectangle rect2 = new Rectangle(2, 10, "blue");
+Rectangle rect3 = new Rectangle(10, 3, "violet");
+
+System.out.println(rect1);
+System.out.println(rect2);
+System.out.println(rect3);
+
+```
