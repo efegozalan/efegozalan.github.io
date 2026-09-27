@@ -616,3 +616,31 @@ Example:
 Student alan = new Student("Alan", "Turing", 11);
 ```
 ---
+
+# CodeHS 1.14 - Calling Instance Methods
+
+**Date: September 27, 2026**
+
+## What I Learned
+
+In this lesson, I learned how to call instance methods on objects in Java.
+
+- Instance methods are called using an object name.
+- The dot operator (`.`) is used to call methods.
+- Methods can take arguments inside parentheses.
+- Some methods change an object's attributes.
+- Some methods return values that can be stored or printed.
+- Methods can be overloaded, meaning methods can have the same name but different parameters.
+- I also practiced creating objects and using their methods to change their state.
+
+## Example
+
+```java
+Balloon balloon1 = new Balloon(10.0, "red");
+
+balloon1.inflate(10);
+balloon1.changeColor("blue");
+
+System.out.println(balloon1);
+```
+---
