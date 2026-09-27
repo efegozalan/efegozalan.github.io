@@ -531,3 +531,45 @@ I learned how methods can return values and how to use those returned values in 
 At first, understanding the difference between void and non-void methods was a little confusing. I learned that a non-void method uses `return` to send a value back.
 
 I also learned that the Math class makes calculations easier with methods like `Math.sqrt()`, `Math.pow()`, and `Math.random()`.
+
+
+--- 
+## R_U1_P5 RUNESTONE
+
+**Date: September 27, 2026**
+
+### Topics
+- Objects and Classes
+- Attributes and Behaviors
+- Constructors
+- Creating Objects
+- Instance Methods
+- Method Calls
+
+### Main Ideas
+In this Runestone assignment, I learned that a class is like a blueprint and an object is an instance of a class.
+
+Objects can have attributes, which store information, and methods, which describe what the object can do.
+
+I also learned how constructors are used with the `new` keyword to create objects.
+
+Instance methods are called using the object name and the dot operator.
+
+### Java Example
+
+[View ObjectExample.java](ObjectExample.java)
+
+```java
+ObjectExample student = new ObjectExample("Alex", 16);
+student.printInfo();
+```
+
+### Sample Output
+
+```text
+Name: Alex
+Age: 16
+```
+
+### Reflection
+I learned how classes, objects, constructors, and instance methods work together. The most important thing I learned was how to create an object and then call its methods.
