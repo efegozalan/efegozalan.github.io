@@ -487,4 +487,47 @@ I learned how to create and call class methods in Java. I also learned about par
 ## Main Ideas
 I learned how to use Java's Math class for calculations such as powers, square roots, absolute values, and random numbers.
 
+--- 
+## R_U1_P4 RUNESTONE
 
+**Date: September 27, 2026**
+
+### Topics
+- Calling Class Methods
+- Using the Math Class
+
+### Main Ideas
+
+In this assignment, I learned how methods can return values and how those values can be used in a program.
+
+A `void` method does not return a value, while a non-void method returns a value such as an `int` or `double`.
+
+I also learned how to use the Java Math class. Some important methods are:
+
+- `Math.abs()` - finds the absolute value
+- `Math.sqrt()` - finds the square root
+- `Math.pow()` - raises a number to a power
+- `Math.random()` - generates a random number
+
+### Code Example
+
+[View MathExample.java](MathExample.java)
+
+This program uses a method called `square` that takes a number and returns its square. It also uses different methods from the Math class.
+
+### Sample Output
+
+```text
+Square: 25
+Absolute value: 4
+Square root: 3.0
+Power: 9.0
+```
+
+### Reflection
+
+I learned how methods can return values and how to use those returned values in my code.
+
+At first, understanding the difference between void and non-void methods was a little confusing. I learned that a non-void method uses `return` to send a value back.
+
+I also learned that the Math class makes calculations easier with methods like `Math.sqrt()`, `Math.pow()`, and `Math.random()`.
