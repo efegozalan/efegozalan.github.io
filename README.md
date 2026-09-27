@@ -600,3 +600,19 @@ System.out.println(rect2);
 System.out.println(rect3);
 
 ```
+--- 
+## CodeHS 1.13 — Object Creation and Storage (Instantiation)
+
+**Date: September 27, 2026**
+
+### Main Ideas
+In this lesson, I learned how constructors are used to create objects in Java. The constructor has the same name as the class, and the arguments have to match the parameters in the correct order and data type.
+
+Objects are created using `new`.
+
+Example:
+
+```java
+Student alan = new Student("Alan", "Turing", 11);
+```
+---
