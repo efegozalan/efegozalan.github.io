@@ -644,3 +644,28 @@ balloon1.changeColor("blue");
 System.out.println(balloon1);
 ```
 ---
+## CodeHS 1.15 – Strings
+
+### Main Ideas
+In this section, I learned how to work with Strings in Java. I practiced string concatenation and methods such as `length()`, `substring()`, `indexOf()`, `equals()`, and `compareTo()`.
+
+### What I Learned
+- How to combine Strings using `+` and `+=`
+- How to find the length of a String
+- How to take parts of a String using `substring()`
+- How to find text using `indexOf()`
+- How to compare Strings using `equals()` and `compareTo()`
+- Strings are immutable, so String methods do not change the original String
+
+### CodeHS Activities
+- Museum Inventory
+- Madlib Generator
+- Bookstore Receipts
+- String Methods Exploration 1
+- String Methods Exploration 2
+- Hidden Message
+- Name Tag Generator
+- Word Games
+
+### Reflection
+I learned how Java can manipulate and compare text using String methods. The most challenging part was understanding substring indexes, but practicing with different examples helped me understand how the start and end indexes work.
