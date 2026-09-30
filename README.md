@@ -672,7 +672,6 @@ I learned how Java can manipulate and compare text using String methods. The mos
 
 ---
 
-
 # BlueJ – AP CSA Unit 1
 
 In this unit, I practiced the main Java concepts from AP CSA Unit 1 using BlueJ. These lessons helped me review variables, casting, Math methods, Strings, and objects.
@@ -683,7 +682,7 @@ In this unit, I practiced the main Java concepts from AP CSA Unit 1 using BlueJ.
 
 I practiced using arithmetic operators and learned the difference between integer and decimal division. I also used compound assignment operators such as `+=`, `-=`, `*=`, `/=`, and `%=`.
 
-[View Lesson1_Variables.java](BlueJ_Unit1/BlueJ_Unit1/Lesson1_Variables.java)
+[View Lesson1_Variables.java](https://efegozalan.github.io/BlueJ_Unit1/BlueJ_Unit1/Lesson1_Variables.java)
 
 ### Reflection
 This lesson helped me understand how Java performs calculations with different data types. One challenge was remembering that dividing two integers gives an integer result.
@@ -696,7 +695,7 @@ This lesson helped me understand how Java performs calculations with different d
 
 I learned how to convert between `int` and `double` values using casting. I also practiced rounding numbers using casting and learned about `Integer.MAX_VALUE`, `Integer.MIN_VALUE`, and overflow.
 
-[View Lesson2_Casting.java](BlueJ_Unit1/BlueJ_Unit1/Lesson2_Casting.java)
+[View Lesson2_Casting.java](https://efegozalan.github.io/BlueJ_Unit1/BlueJ_Unit1/Lesson2_Casting.java)
 
 ### Reflection
 I learned that casting a double to an int removes the decimal part instead of rounding it. I also learned why integer overflow can produce unexpected results.
@@ -709,7 +708,7 @@ I learned that casting a double to an int removes the decimal part instead of ro
 
 I practiced using Java's Math class to calculate distances, areas, compound interest, and random numbers. I also created methods that called other methods.
 
-[View Lesson3_Math.java](BlueJ_Unit1/BlueJ_Unit1/Lesson3_Math.java)
+[View Lesson3_Math.java](https://efegozalan.github.io/BlueJ_Unit1/BlueJ_Unit1/Lesson3_Math.java)
 
 ### Reflection
 This lesson helped me understand how built-in Math methods can make calculations easier. The random number formulas were challenging at first, especially finding the correct minimum and maximum values.
@@ -722,7 +721,7 @@ This lesson helped me understand how built-in Math methods can make calculations
 
 I practiced extracting and changing parts of Strings. I created methods for initials, email usernames and domains, swapping characters, and comparing Strings.
 
-[View Lesson4_Strings.java](BlueJ_Unit1/BlueJ_Unit1/Lesson4_Strings.java)
+[View Lesson4_Strings.java](https://efegozalan.github.io/BlueJ_Unit1/BlueJ_Unit1/Lesson4_Strings.java)
 
 ### Reflection
 I became more comfortable using String indexes and `substring()`. The most important thing I learned was that String indexes start at 0 and the ending index of `substring()` is not included.
@@ -735,7 +734,7 @@ I became more comfortable using String indexes and `substring()`. The most impor
 
 I practiced creating `BankAccount` objects and calling methods such as `deposit()`, `withdraw()`, and `getBalance()`. I also learned that two variables can refer to the same object.
 
-[View Lesson5_Objects.java](BlueJ_Unit1/BlueJ_Unit1/Lesson5_Objects.java)
+[View Lesson5_Objects.java](https://efegozalan.github.io/BlueJ_Unit1/BlueJ_Unit1/Lesson5_Objects.java)
 
 ### Reflection
 This lesson helped me understand the difference between an object and a reference variable. I also learned that changing an object through one reference affects every variable that refers to that same object.
