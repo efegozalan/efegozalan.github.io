@@ -750,3 +750,29 @@ LINKS FOR ALL 5 LESSONS:
 [https://efegozalan.github.io/BlueJ_Unit1/BlueJ_Unit1/Lesson4_Strings.java](https://efegozalan.github.io/BlueJ_Unit1/BlueJ_Unit1/Lesson4_Strings.java)
 
 [https://efegozalan.github.io/BlueJ_Unit1/BlueJ_Unit1/Lesson5_Objects.java](https://efegozalan.github.io/BlueJ_Unit1/BlueJ_Unit1/Lesson5_Objects.java)
+
+
+--- 
+
+---
+
+## FabLab Filament Record
+
+In this activity, I worked with one String that included a material code and six spool amounts.
+
+### Main Ideas
+- Using `Scanner` to get input
+- Using `substring()` to get parts of a String
+- Using `Integer.parseInt()` to change String values into integers
+- Finding the total amount
+- Finding the average using casting
+
+### What I Did
+I separated the material code and each spool amount from the record. Then I changed the spool values into integers, added them together, and calculated the average.
+
+### Reflection
+This activity helped me understand substring and Integer.parseInt() better. I also practiced using casting so the average could be a decimal value.
+
+### Code
+
+[https://efegozalan.github.io/FabLabFilament.java](https://efegozalan.github.io/FabLabFilament.java)
