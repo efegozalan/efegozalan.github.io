@@ -776,3 +776,25 @@ This activity helped me understand substring and Integer.parseInt() better. I al
 ### Code
 
 [https://efegozalan.github.io/FabLabFilament.java](https://efegozalan.github.io/FabLabFilament.java)
+
+---
+
+## Robot Build Instructions
+
+In this activity, I worked with Strings to create and organize robot building instructions.
+
+### Main Ideas
+- Using Strings in Java
+- Combining text with concatenation
+- Working with different pieces of information
+- Printing clear instructions
+
+### What I Did
+I created instructions for building a robot by combining different String values. I practiced organizing text and printing the final result in a clear format.
+
+### Reflection
+This activity helped me practice working with Strings and combining text in Java. It also helped me understand how to organize output so it is easier to read.
+
+### Code
+
+[https://efegozalan.github.io/RobotBuildInstructions.java](https://efegozalan.github.io/RobotBuildInstructions.java)
