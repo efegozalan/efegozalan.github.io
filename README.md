@@ -798,3 +798,29 @@ This activity helped me practice working with Strings and combining text in Java
 ### Code
 
 [https://efegozalan.github.io/RobotBuildInstructions.java](https://efegozalan.github.io/RobotBuildInstructions.java)
+
+
+--- 
+# R_U1_P6 RUNESTONE
+
+## Strings
+
+In this section, I learned how to use String methods in Java.
+
+### Main Ideas
+- length() finds the number of characters
+- substring() gets part of a String
+- indexOf() finds the position of text
+- equals() compares Strings
+- compareTo() compares Strings alphabetically
+- Strings are immutable
+
+### Coding Challenge – Pig Latin
+I used substring() to move the first letter to the end and add "ay".
+
+### Reflection
+This section helped me understand String indexes and String methods better.
+
+### Code
+[https://efegozalan.github.io/PigLatin.java](https://efegozalan.github.io/PigLatin.java)
+
