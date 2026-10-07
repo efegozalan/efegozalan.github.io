@@ -847,3 +847,20 @@ This section helped me understand how decisions and repeated actions are used in
 
 ---
 
+# CodeHS 2.2 – Boolean Expressions
+
+In this section, I learned how boolean expressions work in Java and how relational operators return `true` or `false`.
+
+### Main Ideas
+- Boolean variables store `true` or `false`
+- Relational operators include `>`, `<`, `>=`, `<=`, `==`, and `!=`
+- Boolean methods can return the result of a comparison
+- `==` compares values for primitive types
+- For objects, `==` compares references
+
+### Activities
+I practiced predicting boolean expressions, debugging relational operators, checking goals, returning booleans from methods, and using boolean methods in a Triple-Double program.
+
+### Reflection
+This section helped me understand how comparisons are used to make decisions in Java. I also learned how boolean methods can return `true` or `false` directly.
+
