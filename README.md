@@ -824,3 +824,26 @@ This section helped me understand String indexes and String methods better.
 ### Code
 [https://efegozalan.github.io/PigLatin.java](https://efegozalan.github.io/PigLatin.java)
 
+---
+
+# CodeHS 2.1 – Algorithms with Selection and Repetition
+
+In this section, I learned how algorithms use sequencing, selection, and repetition.
+
+### Main Ideas
+- Sequencing means doing steps in a specific order
+- Selection means making decisions using conditions
+- Repetition means repeating steps until a condition is met
+- The order of steps is important for getting the correct result
+
+### Activities
+I analyzed a morning jog algorithm, created a daily life algorithm, made a flowchart, and analyzed a guessing game.
+
+### Flowchart
+https://canva.link/k9ap37eudj4i2i2
+
+### Reflection
+This section helped me understand how decisions and repeated actions are used inside algorithms.
+
+---
+
