@@ -864,3 +864,20 @@ I practiced predicting boolean expressions, debugging relational operators, chec
 ### Reflection
 This section helped me understand how comparisons are used to make decisions in Java. I also learned how boolean methods can return `true` or `false` directly.
 
+---
+
+# CodeHS 2.3 – If Statements
+
+In this section, I learned how `if` and `if-else` statements are used to make decisions in Java.
+
+### Main Ideas
+- `if` runs code when a condition is true
+- `else` runs when the condition is false
+- `if-else` helps choose between two different actions
+- Relational operators are used inside conditions
+
+### Activities
+I worked with temperature checks, debugging if statements, running speed, checking squares, adding tips, and drink orders.
+
+### Reflection
+This section helped me understand how Java chooses what code to run based on conditions.
