@@ -899,5 +899,20 @@ In this task, I created a simple text editor that supports write, undo, and redo
 ### Reflection
 This task helped me understand how Strings and conditions can be used together to control a program. The hardest part was keeping track of the undo and redo versions.
 
+### Example Input
+```text
+W hello
+W world
+U
+R
+```
+
+### Example Output
+
+Text: [hello]
+Text: [hello world]
+Text: [hello]
+Text: [hello world]
+
 ### Code
 [https://efegozalan.github.io/Project1undoredo.java](https://efegozalan.github.io/Project1undoredo.java)
