@@ -916,3 +916,45 @@ Text: [hello world]
 
 ### Code
 [https://efegozalan.github.io/Project1undoredo.java](https://efegozalan.github.io/Project1undoredo.java)
+
+---
+
+# BlueJ – Emergency Room Triage Queue
+
+In this project, I made a simple emergency room priority queue that can hold up to 3 patients.
+
+### Main Ideas
+- Using `if`, `else if`, and nested `if` statements
+- Using `equals()` to compare names
+- Using `compareTo()` when two patients have the same priority
+- Keeping the queue sorted from highest to lowest priority
+- Calling the first patient in the queue
+- Transferring the lowest ranked patient if the queue is full
+- Bonus: updating a patient's priority if the same name is added again
+
+### Example Input
+```text
+A Can 2
+A Mehmet 2
+A Yigit 5
+S
+A Gunes 2
+C
+A Can 4.
+```
+### Example Output
+
+Can added.
+Mehmet added.
+Yigit added.
+1. Yigit (5) 2. Can (2) 3. Mehmet (2)
+Mehmet transferred to another hospital. Gunes added.
+Yigit called in.
+Can updated.
+
+### Reflection
+This project helped me understand how a priority queue works. I also learned how compareTo() can be used to decide the order when two patients have the same priority.
+
+### Code
+
+[https://efegozalan.github.io/Project2TriageQueue.java](https://efegozalan.github.io/Project2TriageQueue.java)
