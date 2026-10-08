@@ -881,3 +881,23 @@ I worked with temperature checks, debugging if statements, running speed, checki
 
 ### Reflection
 This section helped me understand how Java chooses what code to run based on conditions.
+
+---
+
+# BlueJ – Undo/Redo Text Editor
+
+In this task, I created a simple text editor that supports write, undo, and redo commands.
+
+### Main Ideas
+- Using `if` and `else if`
+- Comparing Strings with `equals()`
+- Using `substring()` and `indexOf()`
+- Storing previous text versions for undo and redo
+- Clearing redo history after a new write command
+- Bonus: keeping only the last 3 undo versions
+
+### Reflection
+This task helped me understand how Strings and conditions can be used together to control a program. The hardest part was keeping track of the undo and redo versions.
+
+### Code
+[https://efegozalan.github.io/Project1undoredo.java](https://efegozalan.github.io/Project1undoredo.java)
