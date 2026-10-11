@@ -1017,3 +1017,37 @@ if (month >= 8 && month <= 11)
 ```
 ### Reflection
 This section helped me understand how multiple conditions can be checked in one if statement. I also learned that compound boolean expressions can make code easier to read and shorter.
+
+---
+
+# CodeHS 2.6 – Comparing Boolean Expressions
+
+In this section, I learned how to compare boolean expressions and objects in Java.
+
+### Main Ideas
+- `==` compares object references
+- `.equals()` compares object values/content
+- Strings should usually be compared with `.equals()`
+- Truth tables can show if two boolean expressions are equivalent
+- De Morgan’s Law can simplify boolean expressions
+
+### Activities
+- Truth Tables
+- Comparing Rectangles
+- Comparing Strings
+- Determine Classmates
+- Simplifying Boolean Expressions
+
+### Example
+```java
+if (one == two)
+{
+    System.out.println("Same student");
+}
+else if (one.getTeacher().equals(two.getTeacher()))
+{
+    System.out.println("Same class");
+}
+```
+### Reflection
+I learned that == and .equals() are not the same. == checks if two variables point to the same object, while .equals() can check if their values are the same.
