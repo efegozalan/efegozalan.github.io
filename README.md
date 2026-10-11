@@ -1051,3 +1051,34 @@ else if (one.getTeacher().equals(two.getTeacher()))
 ```
 ### Reflection
 I learned that == and .equals() are not the same. == checks if two variables point to the same object, while .equals() can check if their values are the same.
+
+---
+
+# CodeHS 2.7 – While Loops
+
+In this section, I learned how to use `while` loops to repeat code while a condition is true.
+
+### Main Ideas
+- `while` loops repeat code
+- The condition must eventually become false
+- `break` can stop a loop
+- `return` can exit a method
+- Infinite loops happen when the condition never changes
+
+### Activities
+- Lighting
+- Making Taffy
+- Vending Machine
+- Infinite Loops
+- Guess Mt. Everest's Height
+
+### Example
+```java
+while (guess != EVEREST_HEIGHT)
+{
+    System.out.println("Guess the height:");
+    guess = input.nextInt();
+}
+```
+### Reflection
+I learned how while loops can repeat actions until a condition is met. I also learned how to avoid infinite loops by changing variables or using break and return.
