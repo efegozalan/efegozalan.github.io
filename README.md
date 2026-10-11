@@ -958,3 +958,62 @@ This project helped me understand how a priority queue works. I also learned how
 ### Code
 
 [https://efegozalan.github.io/Project2TriageQueue.java](https://efegozalan.github.io/Project2TriageQueue.java)
+
+
+---
+
+# CodeHS 2.4 – Nested If Statements
+
+In this section, I learned how nested `if` statements and `if-else-if` statements work.
+
+### Main Ideas
+- Using `if`, `else if`, and `else`
+- Using nested `if` statements
+- Checking ranges with comparison operators
+- Making one decision inside another decision
+- Making code shorter by grouping similar conditions
+
+### Activities
+- Salmon Spawn
+- Smoothie Order
+- Food Order
+- Roller Coaster
+- Temperature Classifier
+- Theater Discounts
+
+### Example
+In the roller coaster activity, the program first checks the user's height. If the user is tall enough, it then checks the user's age.
+
+### Reflection
+This section helped me understand how a program can make multiple decisions. I also learned that nested `if` statements are useful when one condition depends on another condition.
+
+---
+
+# CodeHS 2.5 – Compound Boolean Expressions
+
+In this section, I learned how to combine boolean expressions using `&&`, `||`, and `!`.
+
+### Main Ideas
+- `&&` means AND
+- `||` means OR
+- `!` means NOT
+- Using compound conditions can make code shorter
+- Compound expressions can replace some nested `if` statements
+- The order of conditions is important
+
+### Activities
+- Debugging Booleans
+- City Bus Discounts
+- Converting Pseudocode
+- Compound Salmon Spawn
+- Find the Median
+
+### Example
+```java
+if (month >= 8 && month <= 11)
+{
+    System.out.println("Spawning season");
+}
+```
+### Reflection
+This section helped me understand how multiple conditions can be checked in one if statement. I also learned that compound boolean expressions can make code easier to read and shorter.
