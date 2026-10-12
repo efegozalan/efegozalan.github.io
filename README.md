@@ -1104,3 +1104,8 @@ This project helped me understand how to work with each digit of a number using 
 
 ### Code
 [DigitDetective.java](https://efegozalan.github.io/DigitDetective.java)
+
+
+### BLUE J VERSION OF IT:
+
+[BlueJ - Number Analysis](BlueJ_NumberAnalysis.java)
