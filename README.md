@@ -1082,3 +1082,25 @@ while (guess != EVEREST_HEIGHT)
 ```
 ### Reflection
 I learned how while loops can repeat actions until a condition is met. I also learned how to avoid infinite loops by changing variables or using break and return.
+
+
+--- 
+
+# Digit Detective Programming Project
+
+In this project, I practiced using `while` loops and digit operations without using String or Math.
+
+### What I Did
+- Checked if digits are increasing from left to right
+- Added digits until only one digit was left
+- Removed even digits from a number
+- Checked if a number is an Armstrong number
+
+### Main Ideas
+I used `% 10` to get the last digit and `/ 10` to remove the last digit. I also used while loops to go through the digits.
+
+### Reflection
+This project helped me understand how to work with each digit of a number using loops. The hardest part was keeping the digits in the correct order.
+
+### Code
+[DigitDetective.java](https://efegozalan.github.io/DigitDetective.java)
