@@ -1109,3 +1109,69 @@ This project helped me understand how to work with each digit of a number using 
 ### BLUE J VERSION OF IT:
 
 [BlueJ - Number Analysis](BlueJ_NumberAnalysis.java)
+
+---
+
+# CodeHS 2.8 – For Loops
+
+In this section, I learned how to use `for` loops when I know how many times I want code to repeat.
+
+### Main Ideas
+- for loop structure
+- counting up and down
+- changing the loop by 1, 2, or other values
+- using loops with methods
+- fixing loop errors
+
+### Activities
+- For Loop Variations
+- Print the Odds
+- Debugging: Prime Numbers
+- Multiplication Table
+- Shopping Cart
+
+### Example
+```java
+for (int i = 1; i <= 12; i++)
+{
+    System.out.println(num + " * " + i + " = " + (num * i));
+}
+```
+### Reflection
+
+I learned that for loops are useful when the number of repetitions is known. I also practiced changing the start, condition, and update parts of the loop.
+
+# CodeHS 2.9 – Loop Algorithms
+
+In this section, I practiced using loops to solve problems with numbers and user input.
+
+### Main Ideas
+- Finding averages
+- Using `%` to find remainders
+- Finding maximum and minimum values
+- Working with digits
+- Counting frequencies
+- Using random numbers with loops
+
+### Activities
+- Running Average
+- Factors
+- Donation Collection
+- Max and Min Values
+- Digits
+- Dice Frequencies
+
+### Example
+```java
+while (num > 0)
+{
+    int digit = num % 10;
+    System.out.println(digit);
+    num /= 10;
+}
+
+```
+
+### Reflection
+
+I learned how loops can be used in different algorithms. I also understood % 10 and / 10 better when working with digits.
