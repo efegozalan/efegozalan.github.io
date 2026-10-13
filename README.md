@@ -1194,7 +1194,7 @@ In this part of Unit 2, I learned how Java programs make decisions using algorit
 - `.equals()` should be used when comparing String values.
 
 ### Example
-This example combines boolean expressions, `if`, `else if`, and nested `if` statements.
+This example combines boolean expressions, `if`, `else if`, and nested `if` statements..
 
 [https://efegozalan.github.io/Unit2P1Example.java](https://efegozalan.github.io/Unit2P1Example.java)
 
