@@ -1175,3 +1175,28 @@ while (num > 0)
 ### Reflection
 
 I learned how loops can be used in different algorithms. I also understood % 10 and / 10 better when working with digits.
+
+--- 
+
+# Unit 2 – Runestone – R_U2_P1
+
+In this part of Unit 2, I learned how Java programs make decisions using algorithms, boolean expressions, and conditional statements.
+
+### Main Ideas
+- Algorithms can use sequencing, selection, and repetition.
+- Boolean expressions return `true` or `false`.
+- Comparison operators include `>`, `<`, `>=`, `<=`, `==`, and `!=`.
+- `%` can be used to check divisibility and even or odd numbers.
+- `if` statements run code when a condition is true.
+- `if-else` statements choose between two results.
+- `else if` can be used when there are multiple possible conditions.
+- Nested `if` statements allow one decision to happen inside another decision.
+- `.equals()` should be used when comparing String values.
+
+### Example
+This example combines boolean expressions, `if`, `else if`, and nested `if` statements.
+
+[https://efegozalan.github.io/Unit2P1Example.java](https://efegozalan.github.io/Unit2P1Example.java)
+
+### Reflection
+This part helped me understand how Java makes decisions based on different conditions. I learned how boolean expressions work and how `if`, `else if`, `else`, and nested `if` statements can be used together. I also got better at deciding which type of condition is best for a problem.
