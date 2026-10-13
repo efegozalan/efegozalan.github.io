@@ -19,16 +19,16 @@ public class Unit2P1Example
         {
             if (passed)
             {
-                System.out.println("You can join the activity.");
+                System.out.println("You can join the activity!");
             }
             else
             {
-                System.out.println("Your score is too low.");
+                System.out.println("Your score is too low!");
             }
         }
         else
         {
-            System.out.println("You are too young.");
+            System.out.println("You are too young!");
         }
 
         if (score >= 90)
