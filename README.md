@@ -1200,3 +1200,138 @@ This example combines boolean expressions, `if`, `else if`, and nested `if` stat
 
 ### Reflection
 This part helped me understand how Java makes decisions based on different conditions. I learned how boolean expressions work and how `if`, `else if`, `else`, and nested `if` statements can be used together. I also got better at deciding which type of condition is best for a problem.
+
+---
+# Watch - Share - Unit 1
+
+These are my notes from the College Board's Unit 1 videos.
+
+---
+
+## Unit 1: Preview
+
+### Main Ideas
+- Unit 1 introduces the basic structure of Java programs.
+- Variables are used to store information.
+- Java uses different data types such as `int`, `double`, `boolean`, and `String`.
+- Expressions are used to calculate and change values.
+- Methods help organize code.
+- Objects are created from classes.
+
+### What I Learned
+I learned that Unit 1 gives the basic foundation for Java. Variables, methods, and objects are important because they are used in almost every program.
+
+---
+
+## Unit 1: Focus on Foundations of Programming (Topics 1.1-1.4)
+
+### Main Ideas
+- Java programs are organized inside classes and methods.
+- The `main` method is where a program usually starts.
+- Variables store values.
+- Common primitive data types are `int`, `double`, and `boolean`.
+- Assignment uses one equal sign `=`.
+- Arithmetic operators include `+`, `-`, `*`, `/`, and `%`.
+- Integer division removes the decimal part.
+- `%` gives the remainder after division.
+
+### What I Learned
+I learned how variables, data types, and arithmetic expressions work in Java. I also learned the difference between normal division and integer division.
+
+---
+
+## Unit 1: Focus on Programming Building Blocks (Topics 1.5-1.9)
+
+### Main Ideas
+- Expressions can combine variables, numbers, and operators.
+- Java follows order of operations.
+- Casting can change one numeric type into another.
+- Casting a `double` to an `int` removes the decimal part.
+- The `Math` class has useful methods such as `Math.sqrt()`, `Math.pow()`, and `Math.abs()`.
+- `Math.random()` can generate random values.
+- Strings are used to store text.
+- Common String methods include `length()`, `substring()`, and `indexOf()`.
+
+### What I Learned
+I learned how casting, Math methods, and String methods work. I also learned how changing the data type can change the result of an expression.
+
+---
+
+## Unit 1: Focus on Objects and Classes (Topics 1.10-1.15)
+
+### Main Ideas
+- A class is a blueprint for creating objects.
+- An object is an instance of a class.
+- Constructors are used to create objects.
+- Objects can have attributes and behaviors.
+- Instance methods are called using an object.
+- Different objects from the same class can store different values.
+- Object references store a reference to an object.
+- Two variables can sometimes refer to the same object.
+- `null` means a reference is not pointing to an object.
+
+### What I Learned
+I learned the difference between a class and an object. I also learned how constructors create objects and how instance methods are used with objects.
+
+---
+
+## Unit 1: Concepts in Context (Skill 1)
+
+### Main Ideas
+- It is important to understand what a program should do before writing code.
+- Variable names should clearly describe the value they store.
+- Reading code carefully helps us understand what each statement does.
+- We can trace variable values step by step.
+- Comments can make code easier to understand.
+
+### What I Learned
+I learned that planning and reading code carefully can make programming easier. Tracing variables also helps me understand how a program works.
+
+---
+
+## Unit 1: Concepts in Context (Skill 2)
+
+### Main Ideas
+- Programs should be tested with different values.
+- We can predict the output before running a program.
+- Testing helps find mistakes and logic errors.
+- Small changes in expressions can change the final result.
+- Expected output can be compared with actual output.
+
+### What I Learned
+I learned that testing is an important part of programming. Predicting the output first helps me check if I understand the code correctly.
+
+---
+
+## Unit 1: Concepts in Context (Skills 3 & 4)
+
+### Main Ideas
+- Methods help organize programs.
+- Methods reduce repeated code.
+- Parameters allow methods to work with different values.
+- Arguments are the actual values passed into methods.
+- Methods can return values.
+- Debugging helps find and fix errors.
+- Programs can be improved by testing and revising code.
+
+### What I Learned
+I learned why methods are useful and how parameters and return values make methods more flexible. I also learned that debugging is an important part of writing good code.
+
+---
+
+## Unit 1: Recap
+
+### Main Ideas
+- Variables store data.
+- Data types control what kind of values can be stored.
+- Expressions perform calculations.
+- Casting changes numeric data types.
+- The Math class provides useful mathematical methods.
+- Strings store and manipulate text.
+- Classes are used to create objects.
+- Constructors initialize objects.
+- Instance methods perform actions on objects.
+- Methods help organize and reuse code.
+
+### Reflection
+Unit 1 helped me understand the main building blocks of Java. The topics I found most useful were variables, Math methods, Strings, and objects. Some topics like casting and object references were confusing at first, but practicing with examples made them easier to understand.
