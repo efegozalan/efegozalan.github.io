@@ -1335,3 +1335,34 @@ I learned why methods are useful and how parameters and return values make metho
 
 ### Reflection
 Unit 1 helped me understand the main building blocks of Java. The topics I found most useful were variables, Math methods, Strings, and objects. Some topics like casting and object references were confusing at first, but practicing with examples made them easier to understand.
+
+
+---
+# Unit 2 - Runestone - R_U2_P2
+
+In this part of Unit 2, I learned how to use compound Boolean expressions, compare expressions and objects, and use while loops.
+
+### Main Ideas
+- `&&` means AND. Both conditions must be true.
+- `||` means OR. At least one condition must be true.
+- `!` means NOT and reverses a Boolean value.
+- Compound Boolean expressions can combine multiple conditions.
+- Short-circuit evaluation can stop Java from checking the second part of a condition.
+- Two Boolean expressions are equivalent if they always give the same result.
+- De Morgan's Laws can be used to rewrite Boolean expressions.
+- `==` compares object references.
+- `.equals()` is used to compare the contents of Strings and other objects.
+- `null` means that an object reference does not currently point to an object.
+- A `while` loop repeats code while a Boolean condition is true.
+- A loop usually has three parts: initialize, test, and update.
+- Infinite loops happen when the loop condition never becomes false.
+- Off-by-one errors happen when a loop runs one time too many or one time too few.
+- While loops can also be controlled by user input.
+
+### Example
+This example combines compound Boolean expressions, String comparison, and a while loop.
+
+[https://efegozalan.github.io/Unit2P2Example.java](https://efegozalan.github.io/Unit2P2Example.java)
+
+### Reflection
+This part helped me understand how conditions can become more complex by using `&&`, `||`, and `!`. I also learned the difference between `==` and `.equals()` when comparing objects. While loops helped me understand how programs can repeat actions until a condition becomes false. The most important thing for me was remembering to update the loop variable so the loop does''t run forever.
