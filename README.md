@@ -1366,3 +1366,34 @@ This example combines compound Boolean expressions, String comparison, and a whi
 
 ### Reflection
 This part helped me understand how conditions can become more complex by using `&&`, `||`, and `!`. I also learned the difference between `==` and `.equals()` when comparing objects. While loops helped me understand how programs can repeat actions until a condition becomes false. The most important thing for me was remembering to update the loop variable so the loop does''t run forever.
+
+
+---
+# Unit 2 - Runestone - R_U2_P2
+
+In this part of Unit 2, I learned how to use compound Boolean expressions, compare values and objects, and use while loops.
+
+### Main Ideas
+- `&&` means AND, so both conditions must be true.
+- `||` means OR, so at least one condition must be true.
+- `!` reverses a Boolean value.
+- Short-circuit evaluation can stop Java from checking the second part of a condition.
+- `.equals()` is used to compare String contents.
+- `==` checks if object references point to the same object.
+- `null` means that a reference does not point to an object.
+- A `while` loop repeats code while a condition is true.
+- A loop usually needs three steps: initialize, test, and update.
+- If the loop variable is not updated correctly, the loop can become infinite.
+- Nested while loops can be used to create repeated patterns.
+
+### Example
+This example combines String methods, Boolean expressions, comparisons, and while loops.
+
+[https://efegozalan.github.io/WordWhile.java](https://efegozalan.github.io/WordWhile.java)
+
+### Reflection
+This part helped me understand how Boolean expressions and while loops work together. I learned how to use `&&`, `||`, and `!` to create more detailed conditions. I also practiced comparing Strings and learned that `.equals()` should be used for String content.
+
+One small mistake I made was forgetting that the loop variable has to change inside a `while` loop. If I do not update it correctly, the condition can stay true forever and create an infinite loop. Fixing this helped me understand why initialization, condition checking, and updating are all important parts of a loop.
+
+In my `WordWhile.java` example, I used while loops to work through each letter in a name, count vowels and consonants, compare name lengths, change uppercase and lowercase letters, and create repeated letter patterns. This helped me understand how loops can be used with Strings instead of only numbers.
