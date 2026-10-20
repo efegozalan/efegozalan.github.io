@@ -1397,3 +1397,33 @@ This part helped me understand how Boolean expressions and while loops work toge
 One small mistake I made was forgetting that the loop variable has to change inside a `while` loop. If I do not update it correctly, the condition can stay true forever and create an infinite loop. Fixing this helped me understand why initialization, condition checking, and updating are all important parts of a loop.
 
 In my `WordWhile.java` example, I used while loops to work through each letter in a name, count vowels and consonants, compare name lengths, change uppercase and lowercase letters, and create repeated letter patterns. This helped me understand how loops can be used with Strings instead of only numbers.
+
+---
+
+# Unit 2 - Runestone - R_U2_P3
+
+In this part of Unit 2, I learned how to use `for` loops to repeat code a specific number of times.
+
+### Main Ideas
+- A `for` loop has three parts: initialization, condition, and update.
+- The loop control variable keeps track of how many times the loop runs.
+- `i++` increases the loop variable by 1.
+- A loop can also count backwards using `i--`.
+- The update can change by more than 1, such as `i += 2` or `i -= 2`.
+- `for` loops are useful when the number of repetitions is known.
+- A `for` loop can be rewritten as a `while` loop.
+- Loops can reduce repeated code and make programs shorter and easier to read.
+- For drawing polygons, the turtle can repeat the same forward and turn commands.
+- The turning angle for a regular polygon can be found using `360 / numberOfSides`.
+
+### Example
+This example uses `for` loops to draw a square, triangle, pentagon, and other polygons with a Turtle.
+
+[https://efegozalan.github.io/TurtleDrawShapes.java](https://efegozalan.github.io/TurtleDrawShapes.java)
+
+### Reflection
+This section helped me understand when a `for` loop is better than a `while` loop. I learned that `for` loops are useful when I already know how many times I want something to repeat.
+
+One thing I had to be careful about was changing all three parts of the loop when counting backwards or counting by different amounts. I also learned that the turn angles for a shape have to add up to 360 degrees. Using `360 / n` made it possible to create one method that can draw different polygons instead of writing a separate method for every shape.
+
+---
