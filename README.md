@@ -1480,3 +1480,41 @@ I also learned why `long` can be useful when an input value can be much bigger t
 One part I had to think about was counter-clockwise rotation because subtracting could make the position negative. I fixed this by adding the number of dishes before using `%`.
 
 This project helped me understand circular movement and how modulo can make this type of problem much simpler.
+
+---
+
+# J3 - Typing Mishaps
+
+### What I Learned
+In this project, I practiced using `Scanner`, `for` loops, `if-else` statements, and String methods like `substring()` and `length()`.
+
+I learned how to simulate simple Undo and Redo actions by saving the most recently removed letter. I also learned that typing a new letter should clear the previous Redo value.
+
+### Project
+[TypingMishaps.java](https://efegozalan.github.io/TypingMishaps.java)
+
+### Reflection
+One part I had to be careful about was making sure Undo does nothing when the word is already empty. I also had to reset the Redo value after typing a new letter.
+
+This project helped me understand how strings can be changed step by step and how program state can be stored using variables.
+
+---
+
+# J4 - Round-Robin Printer
+
+### What I Learned
+In this project, I practiced using arrays, `while` loops, `for` loops, and `if-else` statements.
+
+I learned how a round-robin system works by taking the document at the front of the line, printing some pages, and moving it to the back if it is not finished.
+
+I also practiced keeping track of positions using variables like `front` and `back`.
+
+### Project
+[RoundRobinPrinter.java](https://efegozalan.github.io/RoundRobinPrinter.java)
+
+### Reflection
+One part I had to be careful about was moving unfinished documents back to the end of the line without losing their order.
+
+I also had to count every printer turn correctly and record the documents in the exact order they finished.
+
+This project helped me understand how queues can be simulated using arrays and index variables.
