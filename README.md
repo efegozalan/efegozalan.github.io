@@ -1451,3 +1451,14 @@ In this challenge, I used nested `for` loops to create a number pattern. I learn
 
 ### Reflection
 In this challenge, I used nested `while` loops to create a full number diamond. I first built the top half by increasing the number of digits in each row, then I created the bottom half by decreasing them. This helped me understand how nested loops can control both the spaces and the numbers in a pattern. I also learned that changing the loop direction is important when creating mirrored shapes.
+
+---
+# NameProject 2 From While to For Loops
+
+### Word For Example
+[WordFor.java](https://efegozalan.github.io/WordFor.java)
+
+### Reflection
+In this activity, I changed my previous `while` loop program into a version that uses `for` loops. I learned that `for` loops are useful when I know how many times the loop should run. I also practiced using nested `for` loops with Strings to create name patterns, count vowels and consonants, and compare name lengths.
+
+One thing I had to be careful about was putting the initialization, condition, and update in the correct places inside the `for` loop. This made the program shorter and easier to read compared to the `while` loop version.
