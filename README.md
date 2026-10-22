@@ -1435,3 +1435,12 @@ One thing I had to be careful about was changing all three parts of the loop whe
 ### Reflection
 In this activity, I practiced rewriting loops using `for` loops. I learned that `for` loops are useful when I already know how many times the loop should run. I also learned that the initialization, condition, and update are all written in one line, which makes the loop shorter and easier to read.
 ---
+# Half Diamond with numbers by for loops
+
+### Half Diamond Example
+[HalfDiamond.java](https://efegozalan.github.io/HalfDiamond.java)
+
+### Reflection
+In this challenge, I used nested `for` loops to create a number pattern. I learned how one loop can control the rows while other loops control the spaces and numbers inside each row. I also practiced counting up and then counting back down in the same line.
+
+---
