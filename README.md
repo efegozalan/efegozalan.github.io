@@ -1444,3 +1444,10 @@ In this activity, I practiced rewriting loops using `for` loops. I learned that 
 In this challenge, I used nested `for` loops to create a number pattern. I learned how one loop can control the rows while other loops control the spaces and numbers inside each row. I also practiced counting up and then counting back down in the same line.
 
 ---
+# Full Diamınd by For Loop
+
+### Full Diamond Example
+[FullDiamond.java](https://efegozalan.github.io/FullDiamond.java)
+
+### Reflection
+In this challenge, I used nested `while` loops to create a full number diamond. I first built the top half by increasing the number of digits in each row, then I created the bottom half by decreasing them. This helped me understand how nested loops can control both the spaces and the numbers in a pattern. I also learned that changing the loop direction is important when creating mirrored shapes.
