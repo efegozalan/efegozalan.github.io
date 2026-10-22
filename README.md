@@ -1427,3 +1427,11 @@ This section helped me understand when a `for` loop is better than a `while` loo
 One thing I had to be careful about was changing all three parts of the loop when counting backwards or counting by different amounts. I also learned that the turn angles for a shape have to add up to 360 degrees. Using `360 / n` made it possible to create one method that can draw different polygons instead of writing a separate method for every shape.
 
 ---
+# Loop Comparison by For Loops 
+
+### Loop Comparison Example
+[LoopComparison.java](https://efegozalan.github.io/LoopComparison.java)
+
+### Reflection
+In this activity, I practiced rewriting loops using `for` loops. I learned that `for` loops are useful when I already know how many times the loop should run. I also learned that the initialization, condition, and update are all written in one line, which makes the loop shorter and easier to read.
+---
