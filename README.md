@@ -1462,3 +1462,21 @@ In this challenge, I used nested `while` loops to create a full number diamond. 
 In this activity, I changed my previous `while` loop program into a version that uses `for` loops. I learned that `for` loops are useful when I know how many times the loop should run. I also practiced using nested `for` loops with Strings to create name patterns, count vowels and consonants, and compare name lengths.
 
 One thing I had to be careful about was putting the initialization, condition, and update in the correct places inside the `for` loop. This made the program shorter and easier to read compared to the `while` loop version.
+
+---
+# J2 - Lazy Susan
+
+### What I Learned
+In this project, I practiced using `Scanner`, `if-else` statements, loops, and the modulo operator `%`.
+
+I learned that `%` is useful when working with positions that repeat in a circle. It helped me keep the dish position inside the valid range even when the rotation number was very large.
+
+I also learned why `long` can be useful when an input value can be much bigger than a normal small integer.
+
+### Project
+[LazySusan.java](https://efegozalan.github.io/LazySusan.java)
+
+### Reflection
+One part I had to think about was counter-clockwise rotation because subtracting could make the position negative. I fixed this by adding the number of dishes before using `%`.
+
+This project helped me understand circular movement and how modulo can make this type of problem much simpler.
