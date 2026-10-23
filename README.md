@@ -1518,3 +1518,175 @@ One part I had to be careful about was moving unfinished documents back to the e
 I also had to count every printer turn correctly and record the documents in the exact order they finished.
 
 This project helped me understand how queues can be simulated using arrays and index variables.
+
+---
+# Watch - Share - Unit 2
+
+## Unit 2: Recap
+
+### Main Ideas
+- Boolean expressions are `true` or `false`.
+- `if`, `else if`, and `else` control decisions.
+- `while` and `for` loops repeat code.
+- Conditions and loops can be combined.
+
+### Example
+```java
+int score = 85;
+
+if (score >= 80)
+{
+    System.out.println("Good score");
+}
+```
+
+### Reflection
+This recap helped me connect conditions, Boolean expressions, and loops together.
+
+---
+
+## Unit 2: Preview
+
+### Main Ideas
+- Unit 2 focuses on selection and repetition.
+- Conditions decide which code runs.
+- Loops repeat code efficiently.
+- Algorithms can use both conditions and loops.
+
+### Example
+```java
+int age = 16;
+
+if (age >= 16)
+{
+    System.out.println("You can drive.");
+}
+else
+{
+    System.out.println("You need to be older.");
+}
+```
+
+### Reflection
+The preview helped me understand what topics I would learn in Unit 2.
+
+---
+
+## Unit 2: Focus on Loops - Topics 2.7-2.8
+
+### Main Ideas
+- `while` loops run while a condition is true.
+- `for` loops are useful when the number of repetitions is known.
+- Loop variables need initialization, condition, and update.
+- Incorrect updates can cause infinite loops.
+
+### Example
+```java
+for (int i = 1; i <= 5; i++)
+{
+    System.out.println(i);
+}
+```
+
+### Reflection
+I learned when to use `while` loops and when `for` loops are easier.
+
+---
+
+## Unit 2: Focus on Implementing Algorithms - Topics 2.9-2.12
+
+### Main Ideas
+- Loops can calculate totals and averages.
+- Loops can find maximum and minimum values.
+- `% 10` gets the last digit of a number.
+- `/ 10` removes the last digit.
+
+### Example
+```java
+int number = 123;
+
+while (number > 0)
+{
+    System.out.println(number % 10);
+    number /= 10;
+}
+```
+
+### Reflection
+I learned how loops can be used to solve different types of algorithms.
+
+---
+
+## Unit 2: Focus on Boolean Expressions and If Statements - Topics 2.1-2.6
+
+### Main Ideas
+- Relational operators compare values.
+- `&&` means AND, `||` means OR, and `!` means NOT.
+- `if` statements make decisions.
+- `.equals()` is used to compare String contents.
+- De Morgan's Laws can simplify Boolean expressions.
+
+### Example
+```java
+int score = 85;
+
+if (score >= 0 && score <= 100)
+{
+    System.out.println("Valid score");
+}
+```
+
+### Reflection
+I learned how Boolean expressions control which parts of a program execute.
+
+---
+
+## Unit 2: Concepts in Context - Skills 3 & 4
+
+### Main Ideas
+- Large problems can be divided into smaller steps.
+- Conditions and loops can work together.
+- Testing different values helps find mistakes.
+- Variables can store results during an algorithm.
+
+### Example
+```java
+int total = 0;
+
+for (int i = 1; i <= 10; i++)
+{
+    if (i % 2 == 0)
+    {
+        total += i;
+    }
+}
+```
+
+### Reflection
+I learned how to combine different Java concepts in one program.
+
+---
+
+## Unit 2: Concepts in Context - Skills 1 & 2
+
+### Main Ideas
+- Variables store information.
+- Conditions decide what happens.
+- Loops repeat actions.
+- Tracing code helps understand how values change.
+
+### Example
+```java
+int count = 0;
+
+for (int i = 1; i <= 10; i++)
+{
+    if (i % 2 == 0)
+    {
+        count++;
+    }
+}
+```
+
+### Reflection
+This section helped me understand how the basic concepts of Unit 2 work together.
