@@ -1713,3 +1713,24 @@ I learned that Strings can be processed one character at a time using loops. I a
 
 ## Reflection
 This section helped me understand how loops and String methods work together. Reversing the word made it easier for me to understand indexes and `substring()`.
+
+---
+# R_U2_P6 RUNESTONE
+
+## Unit 2 - Nested Iteration and Loop Analysis
+
+In this assignment, I learned how nested loops work and how to analyze loops.
+
+### Main Ideas
+- A nested loop is a loop inside another loop.
+- The inner loop runs completely for every outer loop.
+- Nested loops can create patterns and shapes.
+- Loop tracing helps find outputs and final values.
+- Nested loop repetitions can be found by multiplying the loop counts.
+- `<` and `<=` change how many times a loop runs.
+
+### Example
+[NestedLoopExample.java](https://efegozalan.github.io/NestedLoopExample.java)
+
+### Reflection
+I learned how nested loops repeat code and how to count their iterations. I also learned to trace loops carefully to understand the output.
