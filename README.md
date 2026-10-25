@@ -1690,3 +1690,26 @@ for (int i = 1; i <= 10; i++)
 
 ### Reflection
 This section helped me understand how the basic concepts of Unit 2 work together.
+
+---
+# R_U2_P4 – Implementing String Algorithms
+
+## Main Ideas
+In this section, I learned how loops can be used to work with Strings.
+
+- Using `substring()` to get characters from a String.
+- Using loops to go through each character.
+- Reversing a String.
+- Using `indexOf()` to find text.
+- Replacing parts of a String.
+- Counting characters inside a String.
+
+## Example
+
+[ReverseString.java](https://efegozalan.github.io/ReverseString.java)
+
+## What I Learned
+I learned that Strings can be processed one character at a time using loops. I also learned that the order of concatenation changes the result when reversing a String.
+
+## Reflection
+This section helped me understand how loops and String methods work together. Reversing the word made it easier for me to understand indexes and `substring()`.
