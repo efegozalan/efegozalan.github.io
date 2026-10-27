@@ -1715,7 +1715,7 @@ I learned that Strings can be processed one character at a time using loops. I a
 This section helped me understand how loops and String methods work together. Reversing the word made it easier for me to understand indexes and `substring()`.
 
 ---
-# R_U2_P6 RUNESTONE
+# R_U2_P5 RUNESTONE
 
 ## Unit 2 - Nested Iteration and Loop Analysis
 
@@ -1734,3 +1734,62 @@ In this assignment, I learned how nested loops work and how to analyze loops.
 
 ### Reflection
 I learned how nested loops repeat code and how to count their iterations. I also learned to trace loops carefully to understand the output.
+
+---
+# R_U2_P6 RUNESTONE
+
+## Unit 2 - Selection Review and Practice
+
+In this assignment, I reviewed Boolean expressions, conditional statements, and selection.
+
+### Main Ideas
+
+- `if`, `else if`, and `else` control which code runs.
+- `&&` means both conditions must be true.
+- `||` means at least one condition must be true.
+- `!` changes a Boolean value to the opposite.
+- Strings can be checked using `.equals()` and `indexOf()`.
+- Conditions can also be used to check number ranges.
+
+### Activities
+
+I practiced:
+
+- Comparing a guess with an answer
+- Using compound Boolean expressions
+- Checking number ranges
+- Checking words inside Strings
+- Checking vowels and consonants
+- Creating grade conditions
+- Using conditions for speeding fines
+- Returning the middle character(s) of a String
+
+### Example
+
+```java
+int score = 73;
+
+if (score > 90)
+{
+    System.out.println("A");
+}
+else if (score >= 80)
+{
+    System.out.println("B");
+}
+else if (score >= 70)
+{
+    System.out.println("C");
+}
+else if (score >= 60)
+{
+    System.out.println("D");
+}
+else
+{
+    System.out.println("E");
+}
+
+```
+### Reflection
+I learned how to use conditions more clearly and how if, else if, and else work together. I also learned that small details like using > instead of >= can change the output.
