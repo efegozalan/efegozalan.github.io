@@ -1793,3 +1793,119 @@ else
 ```
 ### Reflection
 I learned how to use conditions more clearly and how if, else if, and else work together. I also learned that small details like using > instead of >= can change the output.
+
+---
+# CodeHS 2.10 – String Algorithms
+
+In this section, I learned how to use loops to work with Strings and process them character by character.
+
+### Main Ideas
+
+- Traversing a String with a loop
+- Using `substring()` and `charAt()`
+- Counting specific characters
+- Reversing Strings
+- Replacing characters in Strings
+- Checking palindromes
+- Using `indexOf()` with loops
+
+### Activities
+
+I practiced:
+- Traversing Strings
+- Mystery Algorithms
+- Reversing Strings
+- Finding Palindromes
+- Teen Talk
+- Password Checker
+
+### Example
+
+```java
+String word = "Hello";
+String reversed = "";
+
+for (int i = word.length() - 1; i >= 0; i--)
+{
+    reversed += word.substring(i, i + 1);
+}
+
+System.out.println(reversed);
+```
+### Reflection 
+
+I learned how loops can be used to examine every character in a String. At first, I made small mistakes with loop indexes and substring(), but I understood that String indexes start at 0 and the last index is length() - 1. I also learned how to build a new String while looping through another String.
+
+---
+# CodeHS 2.11 – Nested Iteration
+
+In this section, I learned how to use nested loops to create patterns, grids, and analyze repeated structures.
+
+### Main Ideas
+
+- A nested loop is a loop inside another loop.
+- The outer loop usually controls rows.
+- The inner loop usually controls columns or values inside each row.
+- Nested loops can create rectangles, triangles, grids, and number patterns.
+- Nested loops can also be used to analyze Strings.
+
+### Activities
+
+- Make a Rectangle
+- Inverted Triangle
+- Make a Grid
+- Upright Number Triangle
+- Vowel Frequency Analysis
+
+### Example
+
+```java
+for (int row = 1; row <= 5; row++)
+{
+    for (int num = 1; num <= row; num++)
+    {
+        System.out.print(num + " ");
+    }
+
+    System.out.println();
+}
+```
+### Reflectioın 
+
+I learned how the outer and inner loops work together. I can now use nested loops to create different patterns and process data more efficiently.
+---
+# CodeHS 2.12 – Algorithm Efficiency
+
+In this section, I learned how to analyze how many times statements execute and how to make algorithms more efficient.
+
+### Main Ideas
+
+- Statement execution count shows how many times a statement runs.
+- Nested loops can greatly increase the number of executions.
+- Loop bounds and updates affect execution count.
+- More efficient algorithms use fewer repeated operations.
+- String methods like `indexOf()` can sometimes replace loops.
+
+### Activities
+
+- Statement Execution Count
+- Nested Loop Analysis
+- Improving `findChar`
+- Testing `findChar` Efficiency
+
+### Example
+
+```java
+public static void findCharEfficient(String str, String key)
+{
+    if (str.indexOf(key) != -1)
+    {
+        System.out.println("Found!");
+    }
+}
+```
+### Reflection
+
+I learned how to compare algorithms by looking at how many times their statements run. I also learned that using the right method can make a program simpler and faster.
+
+
