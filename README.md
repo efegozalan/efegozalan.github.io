@@ -1908,4 +1908,44 @@ public static void findCharEfficient(String str, String key)
 
 I learned how to compare algorithms by looking at how many times their statements run. I also learned that using the right method can make a program simpler and faster.
 
+---
 
+# APCSA HSR Review 1
+
+## Description
+In this assignment, I practiced Java programming by solving free-response questions using loops, Strings, and conditional statements.
+
+## Question 1: Weather Forecast
+
+### Part A - planTrip
+I used a for loop to count rainy days and check the weather conditions for a trip.
+
+### Part B - countSunToRain
+I used substring() and a for loop to count weather changes from sunny to rainy.
+
+## Question 2: Necklace
+
+### Part A - longestRun
+I used a while loop to count consecutive beads of the same color.
+
+### Part B - isSymmetric
+I compared characters from the beginning and end of the String to check symmetry.
+
+### Part C - distinctColors
+I used nested for loops to check how many different colors appeared in the necklace.
+
+### Part D - Price
+I calculated the necklace price and used if-else statements to decide between Premium and Standard.
+
+## What I Learned
+- Using for and while loops
+- Working with substring() and equals()
+- Using nested loops
+- Understanding boolean conditions
+- Using if-else statements
+
+## Reflection
+The most challenging parts were nested loops and checking symmetry. I practiced using counters and comparing characters. My solution still has some logic errors that I need to improve.
+
+## Java Code
+[APCSA_HSR_Review_1.java](APCSA_HSR_Review_1.java)
