@@ -1949,3 +1949,63 @@ The most challenging parts were nested loops and checking symmetry. I practiced 
 
 ## Java Code
 [APCSA_HSR_Review_1.java](APCSA_HSR_Review_1.java)
+
+
+---
+
+# Unit 3 - Class Creation
+
+## Main Ideas
+
+In Unit 3, I learned how to create and use classes and objects in Java. I learned about constructors, methods, instance variables, encapsulation, scope, static variables, and the `this` keyword.
+
+## What I Learned
+
+- Creating classes and objects
+- Constructors
+- Instance variables
+- Accessor and mutator methods
+- Public and private access
+- Encapsulation
+- Variable scope
+- Static variables and methods
+- The `this` keyword
+- Object interaction
+
+## Activities
+
+Some activities I completed were:
+
+- Grocery Store
+- Calculator Debugging
+- Order Up
+- Student Enrollment
+- Song Class
+- Drone Tracking System
+- UserAccount
+- CoffeeCard
+- Book
+
+## Example
+
+```java
+public class Student
+{
+    private String name;
+
+    public Student(String name)
+    {
+        this.name = name;
+    }
+
+    public String getName()
+    {
+        return name;
+    }
+}
+```
+
+## Reflection
+
+Unit 3 helped me understand how classes and objects work in Java. I learned how to protect data with private variables and use methods to access it. I also learned how `this` and static variables work.
+
