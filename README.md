@@ -2016,5 +2016,36 @@ In this activity, I practiced constructors, instance variables, static variables
 ### Code
 
 [View Bike.java](Bike.java)
+---
+## Library Book - Unit 3 Homework
 
+### About
+
+This project is a simple library book system using Java.
+
+I used constructors, private variables, methods, objects, `this`, and a static variable.
+
+#### Files
+
+- [Book.java](Book.java)
+- [BookTester.java](BookTester.java)
+
+##### Tester Output
+
+```text
+Holes by Louis Sachar [Available]
+true
+false
+1
+false
+true
+2
+J.K. Rowling
+J.K. Rowling
+false
+Holes
+3
+Harry Potter by J.K. Rowling [Available]
+Untitled by Unknown [Available]
+```
 
