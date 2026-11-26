@@ -2008,4 +2008,13 @@ public class Student
 ## Reflection
 
 Unit 3 helped me understand how classes and objects work in Java. I learned how to protect data with private variables and use methods to access it. I also learned how `this` and static variables work.
+---
+## Bike Class
+
+In this activity, I practiced constructors, instance variables, static variables, methods, and the `this` keyword.
+
+### Code
+
+[View Bike.java](Bike.java)
+
 
