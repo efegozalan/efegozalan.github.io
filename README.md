@@ -2072,4 +2072,49 @@ I learned the basic parts of a Java class, including instance variables, constru
 ## Reflection
 
 This section helped me understand how Java classes are designed and why good program design is important.
+---
+---
+# R_U3_P3 RUNESTONE
 
+## Topics
+
+- 3.8 Scope and Access
+- 3.9 `this` Keyword
+
+## Main Ideas
+
+In this section, I learned about variable scope and the `this` keyword.
+
+- Class scope is used for instance variables.
+- Method scope is used for local variables and parameters.
+- Block scope is used for variables inside loops and other blocks.
+- Local variables can only be used inside their scope.
+- `this` refers to the current object.
+- `this` can distinguish an instance variable from a parameter with the same name.
+
+## Activities
+
+I completed activities about:
+
+- Class, method, and block scope
+- Fixing scope errors
+- Local and instance variables
+- Using the `this` keyword
+- BankAccount class
+- AP practice questions
+- Vocabulary practice
+
+## Example
+
+```java
+private String name;
+
+public Person(String name)
+{
+    this.name = name;
+}
+```
+
+## Reflection
+
+I learned how scope controls where variables can be used. I also learned how `this` helps refer to the current object and its instance variables.
