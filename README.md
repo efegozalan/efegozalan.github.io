@@ -2048,4 +2048,28 @@ Holes
 Harry Potter by J.K. Rowling [Available]
 Untitled by Unknown [Available]
 ```
+---
+# R_U3_P1 RUNESTONE
+
+## Topics
+
+### 3.1 Abstraction and Program Design
+I learned that abstraction helps make programs easier to understand by hiding unnecessary details.
+
+### 3.2 Impact of Program Design
+I learned that the way a program is designed can affect users and other people. Programmers should think about privacy, safety, and the effects of their programs.
+
+### 3.3 Anatomy of a Java Class
+I learned the basic parts of a Java class, including instance variables, constructors, and methods.
+
+### Main Ideas
+
+- Abstraction makes programs simpler.
+- Program design can have real-world impacts.
+- Classes contain variables, constructors, and methods.
+- Objects are created from classes.
+
+## Reflection
+
+This section helped me understand how Java classes are designed and why good program design is important.
 
